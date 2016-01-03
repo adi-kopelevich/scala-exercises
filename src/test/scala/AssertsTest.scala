@@ -3,7 +3,7 @@ import org.scalatest._
 /**
   * Created by adi on 03/01/2016.
   */
-class AssertsTest  extends FlatSpec with Matchers {
+class AssertsTest extends FlatSpec with Matchers {
 
   "A val contain numeric" should "be equal" in {
     val result = 3.0;
